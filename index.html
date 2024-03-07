@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <input class="searchPlace" type="text" placeholder="Digite o nome da cidade">
+            <button onclick="searchBtn()"><img id="search-logo" src="assets/search-logo.png" alt="botão-de-pesquisar"></button>
+        </header>
+        <section>
+            <h2 id="stateTemp">Temperatura em São Paulo</h2>
+            <p id="temp">21°C</p>
+
+            <div class="info">
+                <img src="https://openweathermap.org/img/wn/04n.png" class="icone" alt="imagem-da-temperatura">
+                <p id="description">Nuvens dispersas</p>
+            </div>
+
+            <p id="humidity">Umidade: 70%</p>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
